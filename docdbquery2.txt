@@ -1,0 +1,7 @@
+SELECT * FROM c where c.TweetDTO.user.name="koks9905"
+
+SELECT c.TweetDTO.id FROM c where c.TweetDTO.user.name="Sky"
+
+SELECT c.Text FROM c where c.TweetDTO.user.screen_name="md1746"
+
+SELECT c.Text, c.id, c.TweetDTO.user.name FROM c where c.TweetDTO.user.screen_name="md1746"

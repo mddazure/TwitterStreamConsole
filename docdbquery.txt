@@ -1,0 +1,5 @@
+SELECT * FROM c WHERE c._ts >= @HighWaterMark ORDER BY c._ts
+
+SELECT c.user.name FROM c WHERE c._ts >= @HighWaterMark ORDER BY c._ts
+
+SELECT c.Text,c.CreatedBy.Name, c.CreatedBy.ScreenName,c.CreatedBy.Description FROM c WHERE c._ts >= 1491332200 ORDER BY c._ts
